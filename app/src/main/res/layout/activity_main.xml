@@ -15,5 +15,5 @@
         android:id="@+id/imageView"
         android:layout_centerHorizontal="true"
         android:onClick="goToMenu"
-        android:src="@drawable/fatburnersforabs"/>
+        android:src="@drawable/fat"/>
 </RelativeLayout>

@@ -19,7 +19,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="77dp"
         android:background="@android:color/holo_green_dark"
-        android:textColor="@android:color/holo_red_dark"/>
+        android:textColor="@android:color/holo_red_dark"
+        android:onClick="OnClick"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -30,7 +31,8 @@
         android:background="@android:color/holo_green_dark"
         android:textColor="@android:color/holo_red_dark"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="OnClick"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -38,9 +40,10 @@
         android:padding="30dp"
         android:text="ABOUT"
         android:id="@+id/button3"
-        android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="77dp"
         android:background="@android:color/holo_green_dark"
-        android:textColor="@android:color/holo_red_dark"/>
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button2"
+        android:onClick="OnClick"/>
 </RelativeLayout>
